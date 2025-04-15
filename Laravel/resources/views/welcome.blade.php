@@ -6,8 +6,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>1° Tela</title>
-</head @vite(['resources/css/app.css', 'resources/js/app.js'])>
+</head>
 <body>
    <header>
     <button class="ui icon button menu-button"> 
